@@ -1,1 +1,3 @@
 # KU_Project_Registration_Page
+
+Register.sql vanne file ni xa database ko lagi .. suruma database  ma upload import garera ani code suru gara hai...
