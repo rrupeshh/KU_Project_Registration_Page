@@ -5,6 +5,11 @@ require('connect.php')
 <?php 
     $errormessage = "";
     session_start();
+
+    if(isset($_SESSION['username'])) {
+        header('Location: Profile.php');   
+    }
+
     $errormessage="";
     if (isset($_POST) && !empty($_POST)){
         $username =$_POST['username'];
